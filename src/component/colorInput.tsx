@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { DataColors, PropsColors } from '../interface';
-import Box from './box';
+import Box from './box/box';
+import './styles.scss';
+
 
 const ColourInput: React.FunctionComponent<PropsColors> = ({ data }) => {
-    console.log(data, 'ini data')
     const [search, setSearch] = useState<DataColors[] | null>([]);
 
     const filter = (event: React.ChangeEvent<HTMLSelectElement>) => {

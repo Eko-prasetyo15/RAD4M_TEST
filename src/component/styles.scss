@@ -11,8 +11,8 @@
         resize: vertical;
         margin-right: 10px;
 
-    }
-    .button{
+      }
+      .button{
          background-color: #4CAF50;
         border: none;
         color: white;
@@ -21,23 +21,23 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 4px;
-    }
+            }
     label {
         padding: 12px 12px 12px 0;
         display: inline-block;
     }
   }
-  .colors-list {
+    .colors-list {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
     margin-left: 50px;
     margin-right: 50px;
+    }
+    .color-box {
+    border: 1px solid #000;
+    margin: 10px;
+    width: 100px;
+    height: 70px;
   }
-  .color-box {
-  border: 1px solid #000;
-  margin: 10px;
-  width: 100px;
-  height: 70px;
-}
 }

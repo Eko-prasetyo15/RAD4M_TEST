@@ -1,6 +1,5 @@
-import React from 'react';
-import { DataColors } from '../../src/interface/index';
-import './styles.scss';
+import React from 'react'
+import { DataColors } from '../../interface/index';
 
 const Box = (props: DataColors) => {
     const { hexcode, colorName } = props;
