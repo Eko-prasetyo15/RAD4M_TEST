@@ -53,13 +53,7 @@ const ColourInput: React.FunctionComponent<PropsColors> = ({ data }) => {
                 <form className="form">
                     <label className="label">Select color </label>
                     <select className="select" onChange={filter}>
-                        {data.map((color) => {
-                            return (
-                                <option value={color.category}>{color.category}</option>
-
-                            )
-                        })}
-                        {/* <option value="all">All</option>
+                        <option value="all">All</option>
                         <option value="red">Red</option>
                         <option value="green">Green</option>
                         <option value="yellow">Yellow</option>
@@ -67,7 +61,7 @@ const ColourInput: React.FunctionComponent<PropsColors> = ({ data }) => {
                         <option value="brown">Brown</option>
                         <option value="gray">Gray</option>
                         <option value="purple">Purple</option>
-                        <option value="pink">Pink</option> */}
+                        <option value="pink">Pink</option>
                     </select>
                     <input className="input" type="checkbox" onChange={checked} />
                     <label>Darker</label>
